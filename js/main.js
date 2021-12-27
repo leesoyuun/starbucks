@@ -46,3 +46,11 @@ fadeEls.forEach(function(fadeEl,index){
     });
 
 });
+
+//SWIPER
+//new Swiper(선택자, 옵션)
+new Swiper('.notice-line .swiper-container',{
+    direction: 'vertical', //방향 : 수직;
+    autoplay: true,
+    loop: true
+});
