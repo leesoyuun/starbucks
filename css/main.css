@@ -383,6 +383,10 @@ header .badges .badge{
     background-color: #f6f5ef;
     position: relative;
     overflow:hidden;
+    transition: height .4s;
+}
+.notice .promotion.hide{
+    height: 0;
 }
 .notice .promotion .swiper-container{
     width: calc(819px * 3 + 20px);
