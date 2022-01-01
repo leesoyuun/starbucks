@@ -71,6 +71,16 @@ new Swiper('.promotion .swiper-container',{
         nextEl: '.promotion .swiper-next' //다음 슬라이드 보는 버튼
     }
 });
+new Swiper('.awards .swiper-container',{
+    autoplay: true,
+    loop : true,
+    spaceBetween: 30,
+    slidesPerView: 5, //한 화면에 몇개를 동시에 보여줄 것인가.
+    navigation: {
+        preEl: '.awards .swiper-prev',
+        nextEl: '.awards .swiper-next'
+    }
+});
 
 const promotionEl = document.querySelector('.promotion');
 const promotionToggleBtn = document.querySelector('.toggle-promotion');
