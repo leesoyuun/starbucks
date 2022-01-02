@@ -133,3 +133,6 @@ spyEls.forEach(function (spyEl) {
         .addTo(new ScrollMagic.Controller());
 
 });
+
+const thisYear = document.querySelector('.this-year');
+thisYear.textContent = new Date().getFullYear(); //현재 년도의 숫자를 반환
